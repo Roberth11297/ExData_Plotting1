@@ -2,7 +2,7 @@ library(lubridate)
 
 # Gráfico 1
 
-# Lectura de datos
+# Lectura de datos,
 
 setwd("C:/Users/Pavilion/Desktop/Coursera/Curso de ciencia de datos/4. Análisis exploratorio de datos/Proyecto semana 1")
 data<-read.table(file="household_power_consumption.txt", header = TRUE, sep = ";", colClasses = c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric"), na.strings = "?")
